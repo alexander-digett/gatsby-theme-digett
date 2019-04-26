@@ -12,7 +12,7 @@ module.exports = {
       resolve: "gatsby-plugin-compile-es6-packages",
       options: {
         // replace with the name of your theme
-        modules: ["gatsby-theme-developer"],
+        modules: ["gatsby-theme-digett"],
       },
     },
   ],
