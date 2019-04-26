@@ -9,17 +9,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "peerDependencies": {
+  "dependencies": {
     "gatsby": "^2.1.9",
     "react": "^16.8.2",
     "react-dom": "^16.8.2"
-  },
-  "devDependencies": {
-    "gatsby": "^2.3.31",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
-  },
-  "dependencies": {
     "gatsby-plugin-compile-es6-packages": "^1.1.0",
     "gatsby-plugin-page-creator": "^2.0.12",
     "gatsby-plugin-page-transitions": "^1.0.7",
