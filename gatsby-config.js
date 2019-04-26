@@ -15,5 +15,6 @@ module.exports = {
         modules: ["gatsby-theme-digett"],
       },
     },
+    `gatsby-v2-plugin-page-transitions`,
   ],
 }

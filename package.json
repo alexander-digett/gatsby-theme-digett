@@ -21,6 +21,12 @@
   },
   "dependencies": {
     "gatsby-plugin-compile-es6-packages": "^1.1.0",
-    "gatsby-plugin-page-creator": "^2.0.12"
+    "gatsby-plugin-page-creator": "^2.0.12",
+    "gatsby-plugin-page-transitions": "^1.0.7",
+    "gatsby-v2-plugin-page-transitions": "^1.0.0",
+    "history": "^4.9.0",
+    "prop-types": "^15.7.2",
+    "react-helmet": "^5.2.0",
+    "react-transition-group": "^4.0.0"
   }
 }
