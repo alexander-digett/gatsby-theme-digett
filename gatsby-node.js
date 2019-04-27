@@ -34,7 +34,7 @@ exports.createPages = ({ actions, graphql }) => {
       createPage({
         path: edge.node.fields.slug,
         component: path.resolve(
-            path.dirname(require.resolve('gatsby-theme-digett')) + `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
+            path.dirname(require.resolve('gatsby-theme-digett')) + `/src/templates/${String(edge.node.frontmatter.templateKey)}.js`
         ),
         // additional data can be passed via context
         context: {
