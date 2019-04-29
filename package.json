@@ -12,6 +12,7 @@
   "dependencies": {
     "gatsby": "^2.1.9",
     "gatsby-plugin-compile-es6-packages": "^1.1.0",
+    "gatsby-plugin-netlify-cms": "^3.0.18",
     "gatsby-plugin-page-creator": "^2.0.12",
     "gatsby-plugin-page-transitions": "^1.0.7",
     "gatsby-plugin-sharp": "^2.0.35",
@@ -23,6 +24,7 @@
     "gatsby-transformer-sharp": "^2.1.18",
     "gatsby-v2-plugin-page-transitions": "^1.0.0",
     "history": "^4.9.0",
+    "netlify-cms": "^2.9.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
