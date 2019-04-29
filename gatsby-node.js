@@ -2,6 +2,24 @@ const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 const gatsbyThemeDigettPath = require('gatsby-remark-relative-images')
+const fs = require('fs');
+const mkdirp = require('mkdirp');
+
+exports.onPreBootstrap = ({reporter}) => {
+  
+    const dirs = [
+      './static/assets',
+    ];
+  
+    dirs.forEach(dir => {
+      if (!fs.existsSync(dir)) {
+        reporter.log(`creating the ${dir} directory`);
+        mkdirp.sync(dir);
+      }
+    });
+  };
+
+
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
