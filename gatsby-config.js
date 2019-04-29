@@ -64,11 +64,5 @@ module.exports = {
       },
     },
     `gatsby-v2-plugin-page-transitions`,
-    {
-      resolve: `gatsby-plugin-netlify-cms`,
-      options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
-      },
-    },
   ],
 }
