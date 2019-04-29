@@ -9,7 +9,6 @@ init({
     backend: {
       name: 'git-gateway',
     },
-    load_config_file: false,
     media_folder: "static/assets",
     public_folder: "/assets",
     collections: [
