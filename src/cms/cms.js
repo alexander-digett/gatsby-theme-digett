@@ -1,4 +1,8 @@
-import CMS, { init } from "netlify-cms"
+// This global flag enables manual initialization.
+window.CMS_MANUAL_INIT = true
+
+// Usage with import from npm package
+import CMS, { init } from 'netlify-cms'
 
 /**
  * Optionally pass in a config object. This object will be merged into `config.yml` if it exists
