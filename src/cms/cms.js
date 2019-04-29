@@ -13,10 +13,9 @@ init({
     media_folder: "static/assets",
     public_folder: "/assets",
     collections: [
-      { label: "Blog", name: "blog", folder: "_posts/blog", create: true, fields: [
+      { label: "Basic Page", name: "basic-page", folder: "src/pages", create: true, fields: [
+        { label: "Template Key", name: "templateKey", widget: "hidden", default: "basic-page" },
         { label: "Title", name: "title", widget: "string" },
-        { label: "Publish Date", name: "date", widget: "datetime" },
-        { label: "Featured Image", name: "thumbnail", widget: "image" },
         { label: "Body", name: "body", widget: "markdown" },
       ]},
     ],
