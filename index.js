@@ -1,1 +1,1 @@
-export {default as Container} from './src/components/container';
+export {default as Container} from './src/components/container.js';
