@@ -14,4 +14,11 @@ const Container = styled.div`
   }
 `;
 
-export default Container
+
+export default function Container() {
+
+  return(
+      <Container />
+    )
+
+  }
