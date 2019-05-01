@@ -20,7 +20,8 @@ exports.onPreBootstrap = ({reporter}) => {
   };
 
 
-exports.createPages = ({ actions, graphql }) => {
+exports.createPages = ({ actions, graphql }, themeOptions) => {
+  console.log(themeOptions)
   const { createPage } = actions
 
   return graphql(`

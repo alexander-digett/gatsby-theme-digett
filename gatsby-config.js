@@ -1,6 +1,8 @@
 const path = require("path")
 
-module.exports = {
+module.exports = themeOptions => { 
+  console.log(themeOptions)
+  return{
   siteMetadata: {
     title: `Gatsby Theme Digett`,
     description: `Digett's Gatsby Theme`,
