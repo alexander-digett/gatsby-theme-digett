@@ -6,7 +6,7 @@ module.exports = {
     description: `Digett's Gatsby Theme`,
     siteUrl: `https://www.digett.com`,
     author: `@alexanderfountain`,
-    logo: `/assets/logo_no_comp.png`,
+    logo: `/assets/logo.png`,
     menuLinks:[
       {
          name:'Link 1',
@@ -23,6 +23,7 @@ module.exports = {
     ],
   },
   plugins: [
+    `gatsby-plugin-emotion`,
     {
       resolve: "gatsby-plugin-page-creator",
       options: {

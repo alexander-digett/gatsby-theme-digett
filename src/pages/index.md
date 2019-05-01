@@ -2,7 +2,7 @@
 title: Home Page
 templateKey: basic-page
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Primum cur
+LLorem ipsum dolor sit amet, consectetur adipiscing elit. Primum cur
 ista res digna odio est, nisi quod est turpis? _Cum salvum_ esse
 flentes sui respondissent, rogavit essentne fusi hostes. Sed ea mala
 virtuti [magnitudine](http://www.google.com) obruebantur. Graecum enim
