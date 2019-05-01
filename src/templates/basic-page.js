@@ -5,6 +5,7 @@ import Layout from '../components/layout'
 import Container from '../components/container'
 import styled from 'styled-components'
 import * as variable from '../components/variables.js'
+import MarkdownConverter from '../components/markdownconverter'
 
 const BasicStyle = styled.div`
   .basic-page-container{
@@ -20,7 +21,10 @@ export const BasicPageTemplate = ({
     return (
         <div>
         <h1>{title}</h1>
-          {content}
+        <MarkdownConverter
+          markdown={content}>
+        </MarkdownConverter>
+          
         </div>
     )
   }
